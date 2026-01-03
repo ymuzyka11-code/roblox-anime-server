@@ -1,0 +1,26 @@
+{
+  "name": "roblox-anime-generator-api",
+  "version": "1.0.0",
+  "description": "API server for generating anime avatars from Roblox characters using AI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "roblox",
+    "anime",
+    "ai",
+    "stable-diffusion",
+    "avatar-generator"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
